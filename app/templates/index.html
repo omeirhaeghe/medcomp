@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MedComp — Medical School Match Comparison</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header class="app-header">
+  <div class="brand">M</div>
+  <div class="brand-text">
+    <h1>MedComp</h1>
+    <p class="tagline">Medical school residency match comparison</p>
+  </div>
+</header>
+
+<main>
+  <section class="panel">
+    <div class="panel-head">
+      <span class="step-num">1</span>
+      <h2>Select schools</h2>
+    </div>
+    <p class="panel-hint">Pick two or more match lists to compare side by side.</p>
+    <div id="school-picker" class="checkbox-grid"></div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-head">
+      <span class="step-num">2</span>
+      <h2>Ask a question</h2>
+    </div>
+    <p class="panel-hint">Filter by geography or specialty. Leave blank to compare full classes.</p>
+    <div class="filter-row">
+      <label>Geography type
+        <select id="geo-type">
+          <option value="">— none —</option>
+          <option value="metro">Metro area</option>
+          <option value="region">US Census region</option>
+          <option value="state">State</option>
+        </select>
+      </label>
+      <label>Geography value
+        <select id="geo-value"><option value="">—</option></select>
+      </label>
+      <label>Specialty
+        <select id="specialty"><option value="">— any —</option></select>
+      </label>
+    </div>
+    <button class="primary" id="run-compare">Run comparison</button>
+  </section>
+
+  <section class="panel" id="results-panel" hidden>
+    <div class="panel-head">
+      <span class="step-num">3</span>
+      <h2>Results</h2>
+    </div>
+    <div id="filter-summary" class="muted"></div>
+    <div id="comparison-table"></div>
+
+    <div class="subhead">
+      <h3>Individual matches</h3>
+      <label class="inline">Group by
+        <select id="detail-group-by">
+          <option value="specialty_category">Specialty</option>
+          <option value="institution">Hospital / program</option>
+          <option value="metro">Metro area</option>
+          <option value="state">State</option>
+        </select>
+      </label>
+    </div>
+    <div id="match-detail"></div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-head">
+      <span class="step-num">↳</span>
+      <h2>Single-school breakdown</h2>
+    </div>
+    <p class="panel-hint">Distribution of one class across geography or specialty.</p>
+    <div class="filter-row">
+      <label>School
+        <select id="bd-school"></select>
+      </label>
+      <label>Group by
+        <select id="bd-by">
+          <option value="metro">Metro area</option>
+          <option value="region">Region</option>
+          <option value="state">State</option>
+          <option value="specialty_category">Specialty</option>
+          <option value="institution">Institution</option>
+        </select>
+      </label>
+    </div>
+    <button class="primary" id="run-breakdown">Show breakdown</button>
+    <div id="breakdown-result"></div>
+  </section>
+
+  <footer>MedComp · data sourced from school-published match lists</footer>
+</main>
+
+<script src="/static/app.js"></script>
+</body>
+</html>
