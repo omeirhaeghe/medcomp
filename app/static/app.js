@@ -137,12 +137,16 @@ function renderMatchDetail() {
 
     const groupsHtml = sortedKeys.length
       ? sortedKeys.map(k => `
-          <div class="group-block">
-            <div class="group-label">${k} <span class="group-count">· ${groups[k].length}</span></div>
+          <details class="group-block">
+            <summary class="group-label">
+              <span class="chevron"></span>
+              <span class="group-name">${k}</span>
+              <span class="group-count">· ${groups[k].length}</span>
+            </summary>
             <ul>
               ${groups[k].map(m => `<li>${formatMatch(m, groupBy)}</li>`).join("")}
             </ul>
-          </div>
+          </details>
         `).join("")
       : `<div class="empty">No matches.</div>`;
 
