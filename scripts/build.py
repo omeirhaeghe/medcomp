@@ -24,19 +24,27 @@ def specialty_category(specialty: str) -> str:
     s = specialty.strip()
     s_low = s.lower()
     # Map slash-variants and prefixed forms to base category
-    if s_low.startswith("internal medicine-pediatrics") or s_low.startswith("medicine - pediatrics"):
+    if s_low.startswith("internal medicine-pediatrics") or s_low.startswith("internal medicine/pediatrics") or s_low.startswith("medicine - pediatrics"):
         return "Internal Medicine-Pediatrics"
     if s_low.startswith("internal medicine"):
         return "Internal Medicine"
     if s_low.startswith("medicine - emergency"):
         return "Emergency Medicine"
-    if s_low.startswith("surgery - general") or s_low.startswith("general surgery"):
+    if s_low.startswith("emergency medicine"):
+        return "Emergency Medicine"
+    if s_low.startswith("vascular surgery"):
+        return "Vascular Surgery"
+    if s_low.startswith("plastic surgery"):
+        return "Plastic Surgery"
+    if s_low.startswith("neurological surgery"):
+        return "Neurological Surgery"
+    if s_low.startswith("surgery - general") or s_low.startswith("surgery-general") or s_low.startswith("general surgery") or s_low == "surgery" or s_low.startswith("surgery (prelim)") or s_low.startswith("surgery/"):
         return "General Surgery"
     if s_low.startswith("surgery - thoracic") or s_low.startswith("thoracic surgery"):
         return "Thoracic Surgery"
-    if s_low.startswith("radiology - diagnostic") or s_low.startswith("radiology-diagnostic"):
+    if s_low.startswith("radiology - diagnostic") or s_low.startswith("radiology-diagnostic") or s_low == "radiology":
         return "Radiology-Diagnostic"
-    if s_low.startswith("radiology - interventional") or s_low.startswith("interventional radiology"):
+    if s_low.startswith("radiology - interventional") or s_low.startswith("radiology-interventional") or s_low.startswith("interventional radiology"):
         return "Interventional Radiology"
     if s_low.startswith("orthopedic") or s_low.startswith("orthopaedic"):
         return "Orthopaedic Surgery"
@@ -48,14 +56,28 @@ def specialty_category(specialty: str) -> str:
         return "Anesthesiology"
     if s_low.startswith("psychiatry"):
         return "Psychiatry"
+    if s_low.startswith("neurology (child)") or s_low.startswith("child neurology"):
+        return "Child Neurology"
+    if s_low.startswith("neurology"):
+        return "Neurology"
     if s_low.startswith("pediatrics-medical genetics"):
         return "Pediatrics"
     if s_low.startswith("pediatrics"):
         return "Pediatrics"
-    if s_low.startswith("plastic surgery"):
-        return "Plastic Surgery"
     if s_low.startswith("pathology"):
         return "Pathology"
+    if s_low.startswith("obstetrics") or s_low.startswith("ob/gyn"):
+        return "Obstetrics-Gynecology"
+    if s_low.startswith("ophthalmology"):
+        return "Ophthalmology"
+    if s_low.startswith("otolaryngology"):
+        return "Otolaryngology"
+    if s_low.startswith("urology"):
+        return "Urology"
+    if s_low.startswith("family medicine"):
+        return "Family Medicine"
+    if s_low.startswith("physical medicine"):
+        return "Physical Medicine & Rehabilitation"
     return s
 
 

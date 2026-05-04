@@ -174,6 +174,30 @@ CITY_STATE_TO_METRO = {
     ("huntington", "WV"): "Huntington",
     ("lubbock", "TX"): "Lubbock",
     ("brigham", "UT"): "Salt Lake City",
+    # Added for Columbia 2023
+    ("tulsa", "OK"): "Tulsa",
+    ("san mateo", "CA"): "San Francisco Bay Area",
+    ("cooperstown", "NY"): "Cooperstown NY",
+    ("marietta", "GA"): "Atlanta",
+    ("stamford", "CT"): "Stamford",
+    ("hollywood", "FL"): "Miami",
+    ("burlington", "MA"): "Boston",
+    # Added for CWRU 2023
+    ("thousand oaks", "CA"): "Los Angeles",
+    ("inglewood", "CA"): "Los Angeles",
+    ("colton", "CA"): "Inland Empire",
+    ("albuquerque", "NM"): "Albuquerque",
+    ("berwyn", "IL"): "Chicago",
+    ("midlothian", "VA"): "Richmond",
+    ("brockton", "MA"): "Boston",
+    ("tucson", "AZ"): "Tucson",
+    ("joint base lewis-mcchord", "WA"): "Seattle",
+    ("allentown", "PA"): "Allentown",
+    ("new orleans", "LA"): "New Orleans",
+    ("memphis", "TN"): "Memphis",
+    ("minneapolis", "MN"): "Twin Cities",
+    ("boise", "ID"): "Boise",
+    ("odessa", "TX"): "Odessa",
 }
 
 

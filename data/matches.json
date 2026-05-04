@@ -1,6 +1,1302 @@
 {
   "schools": [
     {
+      "id": "columbia_2023",
+      "school_id": "columbia",
+      "school_name": "Columbia Vagelos College of Physicians and Surgeons",
+      "year": 2023,
+      "class_size": 143,
+      "matches": [
+        {
+          "specialty": "Anesthesiology",
+          "specialty_category": "Anesthesiology",
+          "institution": "MGB-Brigham & Women's Hospital",
+          "city": "Boston",
+          "state": "MA",
+          "metro": "Boston",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Anesthesiology",
+          "specialty_category": "Anesthesiology",
+          "institution": "Emory University School of Medicine",
+          "city": "Atlanta",
+          "state": "GA",
+          "metro": "Atlanta",
+          "region": "South"
+        },
+        {
+          "specialty": "Anesthesiology",
+          "specialty_category": "Anesthesiology",
+          "institution": "NYP Hosp-Columbia Univ Med Ctr",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Anesthesiology",
+          "specialty_category": "Anesthesiology",
+          "institution": "NYP Hosp-Columbia Univ Med Ctr",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Anesthesiology",
+          "specialty_category": "Anesthesiology",
+          "institution": "NYP Hosp-Columbia Univ Med Ctr",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Anesthesiology",
+          "specialty_category": "Anesthesiology",
+          "institution": "NYP Hosp-Columbia Univ Med Ctr",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Anesthesiology",
+          "specialty_category": "Anesthesiology",
+          "institution": "NYP Hosp-Columbia Univ Med Ctr",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Anesthesiology",
+          "specialty_category": "Anesthesiology",
+          "institution": "NYP Hosp-Columbia Univ Med Ctr",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Anesthesiology",
+          "specialty_category": "Anesthesiology",
+          "institution": "UT Southwestern Medical Center",
+          "city": "Dallas",
+          "state": "TX",
+          "metro": "Dallas-Fort Worth",
+          "region": "South"
+        },
+        {
+          "specialty": "Anesthesiology",
+          "specialty_category": "Anesthesiology",
+          "institution": "UC San Diego Medical Center",
+          "city": "San Diego",
+          "state": "CA",
+          "metro": "San Diego",
+          "region": "West"
+        },
+        {
+          "specialty": "Dermatology",
+          "specialty_category": "Dermatology",
+          "institution": "NYP Hosp-Columbia Univ Med Ctr",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Dermatology",
+          "specialty_category": "Dermatology",
+          "institution": "NYP Hosp-Columbia Univ Med Ctr",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Dermatology",
+          "specialty_category": "Dermatology",
+          "institution": "Stanford Health Care",
+          "city": "Stanford",
+          "state": "CA",
+          "metro": "San Francisco Bay Area",
+          "region": "West"
+        },
+        {
+          "specialty": "Emergency Medicine",
+          "specialty_category": "Emergency Medicine",
+          "institution": "ISMMS Mount Sinai Hospital",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Emergency Medicine",
+          "specialty_category": "Emergency Medicine",
+          "institution": "MGB-Massachusetts General Hospital",
+          "city": "Boston",
+          "state": "MA",
+          "metro": "Boston",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Emergency Medicine",
+          "specialty_category": "Emergency Medicine",
+          "institution": "NYP Hosp-Columbia/Cornell",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Emergency Medicine",
+          "specialty_category": "Emergency Medicine",
+          "institution": "NYP Hosp-Columbia/Cornell",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Emergency Medicine",
+          "specialty_category": "Emergency Medicine",
+          "institution": "NYP Hosp-Columbia/Cornell",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Emergency Medicine",
+          "specialty_category": "Emergency Medicine",
+          "institution": "Stanford Health Care",
+          "city": "Stanford",
+          "state": "CA",
+          "metro": "San Francisco Bay Area",
+          "region": "West"
+        },
+        {
+          "specialty": "Emergency Medicine",
+          "specialty_category": "Emergency Medicine",
+          "institution": "Stanford Health Care",
+          "city": "Stanford",
+          "state": "CA",
+          "metro": "San Francisco Bay Area",
+          "region": "West"
+        },
+        {
+          "specialty": "Emergency Medicine",
+          "specialty_category": "Emergency Medicine",
+          "institution": "SUNY HSC Brooklyn",
+          "city": "Brooklyn",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Emergency Medicine",
+          "specialty_category": "Emergency Medicine",
+          "institution": "Temple University Hospital",
+          "city": "Philadelphia",
+          "state": "PA",
+          "metro": "Philadelphia",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Emergency Medicine",
+          "specialty_category": "Emergency Medicine",
+          "institution": "University of Chicago Medical Center",
+          "city": "Chicago",
+          "state": "IL",
+          "metro": "Chicago",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Emergency Medicine",
+          "specialty_category": "Emergency Medicine",
+          "institution": "UCSF-Fresno",
+          "city": "Fresno",
+          "state": "CA",
+          "metro": "Fresno",
+          "region": "West"
+        },
+        {
+          "specialty": "Family Medicine",
+          "specialty_category": "Family Medicine",
+          "institution": "Cambridge Health Alliance",
+          "city": "Cambridge",
+          "state": "MA",
+          "metro": "Boston",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Family Medicine",
+          "specialty_category": "Family Medicine",
+          "institution": "Family Health Centers of San Diego",
+          "city": "San Diego",
+          "state": "CA",
+          "metro": "San Diego",
+          "region": "West"
+        },
+        {
+          "specialty": "Family Medicine",
+          "specialty_category": "Family Medicine",
+          "institution": "Hospital of the University of Pennsylvania",
+          "city": "Philadelphia",
+          "state": "PA",
+          "metro": "Philadelphia",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Family Medicine",
+          "specialty_category": "Family Medicine",
+          "institution": "In His Image Family Medicine",
+          "city": "Tulsa",
+          "state": "OK",
+          "metro": "Tulsa",
+          "region": "South"
+        },
+        {
+          "specialty": "Family Medicine",
+          "specialty_category": "Family Medicine",
+          "institution": "University of Colorado School of Medicine",
+          "city": "Aurora",
+          "state": "CO",
+          "metro": "Denver",
+          "region": "West"
+        },
+        {
+          "specialty": "Family Medicine",
+          "specialty_category": "Family Medicine",
+          "institution": "University of Washington Affiliated Hospitals",
+          "city": "Seattle",
+          "state": "WA",
+          "metro": "Seattle",
+          "region": "West"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "MGB-Brigham & Women's Hospital",
+          "city": "Boston",
+          "state": "MA",
+          "metro": "Boston",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "Hospital of the University of Pennsylvania",
+          "city": "Philadelphia",
+          "state": "PA",
+          "metro": "Philadelphia",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "Hospital of the University of Pennsylvania",
+          "city": "Philadelphia",
+          "state": "PA",
+          "metro": "Philadelphia",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "ISMMS Mount Sinai Hospital",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "ISMMS Mount Sinai Hospital",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "Kaiser Permanente",
+          "city": "Oakland",
+          "state": "CA",
+          "metro": "San Francisco Bay Area",
+          "region": "West"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "Kaiser Permanente",
+          "city": "Oakland",
+          "state": "CA",
+          "metro": "San Francisco Bay Area",
+          "region": "West"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "MGB-Massachusetts General Hospital",
+          "city": "Boston",
+          "state": "MA",
+          "metro": "Boston",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "NYP Hosp-Columbia Univ Med Ctr",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "NYP Hosp-Columbia Univ Med Ctr",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "NYP Hosp-Columbia Univ Med Ctr",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "NYP Hosp-Columbia Univ Med Ctr",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "NYP Hosp-Columbia Univ Med Ctr",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "NYP Hosp-Columbia Univ Med Ctr",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "NYP Hosp-Columbia Univ Med Ctr",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "NYP Hosp-Weill Cornell Medical Center",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "NYP Hosp-Weill Cornell Medical Center",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "NYP Hosp-Weill Cornell Medical Center",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "NYP Hosp-Weill Cornell Medical Center",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "NYU Grossman School of Medicine",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "NYU Grossman School of Medicine",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "Johns Hopkins Hospital",
+          "city": "Baltimore",
+          "state": "MD",
+          "metro": "Baltimore",
+          "region": "South"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "UCLA Medical Center",
+          "city": "Los Angeles",
+          "state": "CA",
+          "metro": "Los Angeles",
+          "region": "West"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "UCLA Medical Center",
+          "city": "Los Angeles",
+          "state": "CA",
+          "metro": "Los Angeles",
+          "region": "West"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "UC San Francisco",
+          "city": "San Francisco",
+          "state": "CA",
+          "metro": "San Francisco Bay Area",
+          "region": "West"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "UT Southwestern Medical Center",
+          "city": "Dallas",
+          "state": "TX",
+          "metro": "Dallas-Fort Worth",
+          "region": "South"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "Yale-New Haven Hospital",
+          "city": "New Haven",
+          "state": "CT",
+          "metro": "New Haven",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "UPMC Medical Education",
+          "city": "Pittsburgh",
+          "state": "PA",
+          "metro": "Pittsburgh",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Internal Medicine (Prelim)",
+          "specialty_category": "Internal Medicine",
+          "institution": "ISMMS Mount Sinai Morningside-West",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Internal Medicine (Prelim)",
+          "specialty_category": "Internal Medicine",
+          "institution": "Memorial Healthcare System",
+          "city": "Hollywood",
+          "state": "FL",
+          "metro": "Miami",
+          "region": "South"
+        },
+        {
+          "specialty": "Internal Medicine (Prelim)",
+          "specialty_category": "Internal Medicine",
+          "institution": "Northwestern McGaw/NMH/VA",
+          "city": "Chicago",
+          "state": "IL",
+          "metro": "Chicago",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Internal Medicine (Prelim)",
+          "specialty_category": "Internal Medicine",
+          "institution": "University of Michigan Medical Center",
+          "city": "Ann Arbor",
+          "state": "MI",
+          "metro": "Ann Arbor",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Internal Medicine (Prelim)",
+          "specialty_category": "Internal Medicine",
+          "institution": "Yale-New Haven Hospital",
+          "city": "New Haven",
+          "state": "CT",
+          "metro": "New Haven",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Internal Medicine/Pediatrics",
+          "specialty_category": "Internal Medicine-Pediatrics",
+          "institution": "University of North Carolina Hospitals",
+          "city": "Chapel Hill",
+          "state": "NC",
+          "metro": "Raleigh-Durham",
+          "region": "South"
+        },
+        {
+          "specialty": "Internal Medicine/Pediatrics",
+          "specialty_category": "Internal Medicine-Pediatrics",
+          "institution": "Yale-New Haven Hospital",
+          "city": "New Haven",
+          "state": "CT",
+          "metro": "New Haven",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Neurological Surgery",
+          "specialty_category": "Neurological Surgery",
+          "institution": "UT Austin Dell Medical School",
+          "city": "Austin",
+          "state": "TX",
+          "metro": "Austin",
+          "region": "South"
+        },
+        {
+          "specialty": "Neurological Surgery",
+          "specialty_category": "Neurological Surgery",
+          "institution": "NYP Hosp-Columbia Univ Med Ctr",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Neurology (Child)",
+          "specialty_category": "Child Neurology",
+          "institution": "Boston Children's Hospital",
+          "city": "Boston",
+          "state": "MA",
+          "metro": "Boston",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Neurology (Child)",
+          "specialty_category": "Child Neurology",
+          "institution": "NYU Grossman School of Medicine",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Neurology",
+          "specialty_category": "Neurology",
+          "institution": "NYP Hosp-Columbia Univ Med Ctr",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Neurology",
+          "specialty_category": "Neurology",
+          "institution": "NYP Hosp-Columbia Univ Med Ctr",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Neurology",
+          "specialty_category": "Neurology",
+          "institution": "NYP Hosp-Columbia Univ Med Ctr",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Neurology",
+          "specialty_category": "Neurology",
+          "institution": "Yale-New Haven Hospital",
+          "city": "New Haven",
+          "state": "CT",
+          "metro": "New Haven",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Neurology",
+          "specialty_category": "Neurology",
+          "institution": "Northwestern McGaw/NMH/VA",
+          "city": "Chicago",
+          "state": "IL",
+          "metro": "Chicago",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Obstetrics-Gynecology",
+          "specialty_category": "Obstetrics-Gynecology",
+          "institution": "Brown University/Rhode Island Hospital",
+          "city": "Providence",
+          "state": "RI",
+          "metro": "Providence",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Obstetrics-Gynecology",
+          "specialty_category": "Obstetrics-Gynecology",
+          "institution": "Cedars-Sinai Medical Center",
+          "city": "Los Angeles",
+          "state": "CA",
+          "metro": "Los Angeles",
+          "region": "West"
+        },
+        {
+          "specialty": "Obstetrics-Gynecology",
+          "specialty_category": "Obstetrics-Gynecology",
+          "institution": "Hospital of the University of Pennsylvania",
+          "city": "Philadelphia",
+          "state": "PA",
+          "metro": "Philadelphia",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Obstetrics-Gynecology",
+          "specialty_category": "Obstetrics-Gynecology",
+          "institution": "Northwestern McGaw/NMH/VA",
+          "city": "Chicago",
+          "state": "IL",
+          "metro": "Chicago",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Obstetrics-Gynecology",
+          "specialty_category": "Obstetrics-Gynecology",
+          "institution": "NYP Hosp-Weill Cornell Medical Center",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Obstetrics-Gynecology",
+          "specialty_category": "Obstetrics-Gynecology",
+          "institution": "UC San Diego Medical Center",
+          "city": "San Diego",
+          "state": "CA",
+          "metro": "San Diego",
+          "region": "West"
+        },
+        {
+          "specialty": "Obstetrics-Gynecology",
+          "specialty_category": "Obstetrics-Gynecology",
+          "institution": "University of Washington Affiliated Hospitals",
+          "city": "Seattle",
+          "state": "WA",
+          "metro": "Seattle",
+          "region": "West"
+        },
+        {
+          "specialty": "Obstetrics-Gynecology",
+          "specialty_category": "Obstetrics-Gynecology",
+          "institution": "University of Illinois Chicago",
+          "city": "Chicago",
+          "state": "IL",
+          "metro": "Chicago",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Ophthalmology",
+          "specialty_category": "Ophthalmology",
+          "institution": "Massachusetts Eye and Ear Infirmary",
+          "city": "Boston",
+          "state": "MA",
+          "metro": "Boston",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Ophthalmology",
+          "specialty_category": "Ophthalmology",
+          "institution": "NYP Hosp-Columbia Univ Med Ctr",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Ophthalmology",
+          "specialty_category": "Ophthalmology",
+          "institution": "UC San Francisco",
+          "city": "San Francisco",
+          "state": "CA",
+          "metro": "San Francisco Bay Area",
+          "region": "West"
+        },
+        {
+          "specialty": "Ophthalmology",
+          "specialty_category": "Ophthalmology",
+          "institution": "University of Michigan Medical Center",
+          "city": "Ann Arbor",
+          "state": "MI",
+          "metro": "Ann Arbor",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Oral Maxillofacial Surgery",
+          "specialty_category": "Oral Maxillofacial Surgery",
+          "institution": "NYP Hosp-Columbia Univ Med Ctr",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Oral Maxillofacial Surgery",
+          "specialty_category": "Oral Maxillofacial Surgery",
+          "institution": "NYP Hosp-Columbia Univ Med Ctr",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Orthopedic Surgery",
+          "specialty_category": "Orthopaedic Surgery",
+          "institution": "MGB-Massachusetts General Hospital",
+          "city": "Boston",
+          "state": "MA",
+          "metro": "Boston",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Orthopedic Surgery",
+          "specialty_category": "Orthopaedic Surgery",
+          "institution": "NYP Hosp-Columbia Univ Med Ctr",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Orthopedic Surgery",
+          "specialty_category": "Orthopaedic Surgery",
+          "institution": "Stanford Health Care",
+          "city": "Stanford",
+          "state": "CA",
+          "metro": "San Francisco Bay Area",
+          "region": "West"
+        },
+        {
+          "specialty": "Orthopedic Surgery",
+          "specialty_category": "Orthopaedic Surgery",
+          "institution": "USC Keck School of Medicine",
+          "city": "Los Angeles",
+          "state": "CA",
+          "metro": "Los Angeles",
+          "region": "West"
+        },
+        {
+          "specialty": "Orthopedic Surgery",
+          "specialty_category": "Orthopaedic Surgery",
+          "institution": "University of Washington Affiliated Hospitals",
+          "city": "Seattle",
+          "state": "WA",
+          "metro": "Seattle",
+          "region": "West"
+        },
+        {
+          "specialty": "Otolaryngology",
+          "specialty_category": "Otolaryngology",
+          "institution": "Johns Hopkins Hospital",
+          "city": "Baltimore",
+          "state": "MD",
+          "metro": "Baltimore",
+          "region": "South"
+        },
+        {
+          "specialty": "Otolaryngology",
+          "specialty_category": "Otolaryngology",
+          "institution": "University of Utah Health",
+          "city": "Salt Lake City",
+          "state": "UT",
+          "metro": "Salt Lake City",
+          "region": "West"
+        },
+        {
+          "specialty": "Otolaryngology",
+          "specialty_category": "Otolaryngology",
+          "institution": "UPMC Medical Education",
+          "city": "Pittsburgh",
+          "state": "PA",
+          "metro": "Pittsburgh",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Otolaryngology",
+          "specialty_category": "Otolaryngology",
+          "institution": "University of Washington Affiliated Hospitals",
+          "city": "Seattle",
+          "state": "WA",
+          "metro": "Seattle",
+          "region": "West"
+        },
+        {
+          "specialty": "Pathology",
+          "specialty_category": "Pathology",
+          "institution": "NYP Hosp-Columbia Univ Med Ctr",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Pediatrics",
+          "specialty_category": "Pediatrics",
+          "institution": "Boston Children's Hospital",
+          "city": "Boston",
+          "state": "MA",
+          "metro": "Boston",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Pediatrics",
+          "specialty_category": "Pediatrics",
+          "institution": "Boston Children's Hospital",
+          "city": "Boston",
+          "state": "MA",
+          "metro": "Boston",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Pediatrics",
+          "specialty_category": "Pediatrics",
+          "institution": "ISMMS Mount Sinai Hospital",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Pediatrics",
+          "specialty_category": "Pediatrics",
+          "institution": "NYP Hosp-Columbia Univ Med Ctr",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Pediatrics",
+          "specialty_category": "Pediatrics",
+          "institution": "NYP Hosp-Columbia Univ Med Ctr",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Pediatrics",
+          "specialty_category": "Pediatrics",
+          "institution": "Johns Hopkins Hospital",
+          "city": "Baltimore",
+          "state": "MD",
+          "metro": "Baltimore",
+          "region": "South"
+        },
+        {
+          "specialty": "Plastic Surgery",
+          "specialty_category": "Plastic Surgery",
+          "institution": "ISMMS Mount Sinai Hospital",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Plastic Surgery",
+          "specialty_category": "Plastic Surgery",
+          "institution": "NYP Hosp-Weill Cornell Medical Center",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Psychiatry",
+          "specialty_category": "Psychiatry",
+          "institution": "Dartmouth-Hitchcock Medical Center",
+          "city": "Lebanon",
+          "state": "NH",
+          "metro": "Lebanon NH",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Psychiatry",
+          "specialty_category": "Psychiatry",
+          "institution": "Hospital of the University of Pennsylvania",
+          "city": "Philadelphia",
+          "state": "PA",
+          "metro": "Philadelphia",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Psychiatry",
+          "specialty_category": "Psychiatry",
+          "institution": "Hospital of the University of Pennsylvania",
+          "city": "Philadelphia",
+          "state": "PA",
+          "metro": "Philadelphia",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Psychiatry",
+          "specialty_category": "Psychiatry",
+          "institution": "MGB-Massachusetts General Hospital",
+          "city": "Boston",
+          "state": "MA",
+          "metro": "Boston",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Psychiatry",
+          "specialty_category": "Psychiatry",
+          "institution": "University of Colorado School of Medicine",
+          "city": "Aurora",
+          "state": "CO",
+          "metro": "Denver",
+          "region": "West"
+        },
+        {
+          "specialty": "Psychiatry",
+          "specialty_category": "Psychiatry",
+          "institution": "University of Washington Affiliated Hospitals",
+          "city": "Seattle",
+          "state": "WA",
+          "metro": "Seattle",
+          "region": "West"
+        },
+        {
+          "specialty": "Psychiatry",
+          "specialty_category": "Psychiatry",
+          "institution": "NYP Hosp-Columbia Univ Med Ctr",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Psychiatry",
+          "specialty_category": "Psychiatry",
+          "institution": "NYP Hosp-Columbia Univ Med Ctr",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Psychiatry",
+          "specialty_category": "Psychiatry",
+          "institution": "NYP Hosp-Columbia Univ Med Ctr",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Psychiatry",
+          "specialty_category": "Psychiatry",
+          "institution": "NYP Hosp-Columbia Univ Med Ctr",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Psychiatry",
+          "specialty_category": "Psychiatry",
+          "institution": "Olive View-UCLA Medical Center",
+          "city": "Los Angeles",
+          "state": "CA",
+          "metro": "Los Angeles",
+          "region": "West"
+        },
+        {
+          "specialty": "Psychiatry",
+          "specialty_category": "Psychiatry",
+          "institution": "San Mateo Behavioral Health & Recovery Services",
+          "city": "San Mateo",
+          "state": "CA",
+          "metro": "San Francisco Bay Area",
+          "region": "West"
+        },
+        {
+          "specialty": "Psychiatry",
+          "specialty_category": "Psychiatry",
+          "institution": "Yale-New Haven Hospital",
+          "city": "New Haven",
+          "state": "CT",
+          "metro": "New Haven",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Psychiatry",
+          "specialty_category": "Psychiatry",
+          "institution": "Zucker School of Medicine at Northwell",
+          "city": "New Hyde Park",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Radiation Oncology",
+          "specialty_category": "Radiation Oncology",
+          "institution": "MGB-Massachusetts General Hospital",
+          "city": "Boston",
+          "state": "MA",
+          "metro": "Boston",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Radiology",
+          "specialty_category": "Radiology-Diagnostic",
+          "institution": "Duke University Medical Center",
+          "city": "Durham",
+          "state": "NC",
+          "metro": "Raleigh-Durham",
+          "region": "South"
+        },
+        {
+          "specialty": "Radiology-Interventional",
+          "specialty_category": "Interventional Radiology",
+          "institution": "NYP Hosp-Columbia Univ Med Ctr",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Surgery",
+          "specialty_category": "General Surgery",
+          "institution": "George Washington University",
+          "city": "Washington",
+          "state": "DC",
+          "metro": "Washington DC",
+          "region": "South"
+        },
+        {
+          "specialty": "Surgery",
+          "specialty_category": "General Surgery",
+          "institution": "Hospital of the University of Pennsylvania",
+          "city": "Philadelphia",
+          "state": "PA",
+          "metro": "Philadelphia",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Surgery",
+          "specialty_category": "General Surgery",
+          "institution": "Hospital of the University of Pennsylvania",
+          "city": "Philadelphia",
+          "state": "PA",
+          "metro": "Philadelphia",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Surgery",
+          "specialty_category": "General Surgery",
+          "institution": "ISMMS Mount Sinai Hospital",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Surgery",
+          "specialty_category": "General Surgery",
+          "institution": "Johns Hopkins Hospital",
+          "city": "Baltimore",
+          "state": "MD",
+          "metro": "Baltimore",
+          "region": "South"
+        },
+        {
+          "specialty": "Surgery",
+          "specialty_category": "General Surgery",
+          "institution": "NYP Hosp-Columbia Univ Med Ctr",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Surgery",
+          "specialty_category": "General Surgery",
+          "institution": "UCLA Medical Center",
+          "city": "Los Angeles",
+          "state": "CA",
+          "metro": "Los Angeles",
+          "region": "West"
+        },
+        {
+          "specialty": "Surgery (Prelim)",
+          "specialty_category": "General Surgery",
+          "institution": "Bassett Medical Center",
+          "city": "Cooperstown",
+          "state": "NY",
+          "metro": "Cooperstown NY",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Surgery (Prelim)",
+          "specialty_category": "General Surgery",
+          "institution": "Stamford Hospital/Columbia",
+          "city": "Stamford",
+          "state": "CT",
+          "metro": "Stamford",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Surgery (Prelim)",
+          "specialty_category": "General Surgery",
+          "institution": "UC San Francisco",
+          "city": "San Francisco",
+          "state": "CA",
+          "metro": "San Francisco Bay Area",
+          "region": "West"
+        },
+        {
+          "specialty": "Transitional",
+          "specialty_category": "Transitional",
+          "institution": "Ascension Resurrection",
+          "city": "Chicago",
+          "state": "IL",
+          "metro": "Chicago",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Transitional",
+          "specialty_category": "Transitional",
+          "institution": "Memorial Sloan-Kettering Cancer Center",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Transitional",
+          "specialty_category": "Transitional",
+          "institution": "Memorial Sloan-Kettering Cancer Center",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Transitional",
+          "specialty_category": "Transitional",
+          "institution": "WellStar Kennestone Regional Medical Center",
+          "city": "Marietta",
+          "state": "GA",
+          "metro": "Atlanta",
+          "region": "South"
+        },
+        {
+          "specialty": "Urology",
+          "specialty_category": "Urology",
+          "institution": "Hospital of the University of Pennsylvania",
+          "city": "Philadelphia",
+          "state": "PA",
+          "metro": "Philadelphia",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Urology",
+          "specialty_category": "Urology",
+          "institution": "ISMMS Mount Sinai Hospital",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Urology",
+          "specialty_category": "Urology",
+          "institution": "Lahey Hospital & Medical Center",
+          "city": "Burlington",
+          "state": "MA",
+          "metro": "Boston",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Urology",
+          "specialty_category": "Urology",
+          "institution": "Temple University Hospital",
+          "city": "Philadelphia",
+          "state": "PA",
+          "metro": "Philadelphia",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Urology",
+          "specialty_category": "Urology",
+          "institution": "University of Colorado School of Medicine",
+          "city": "Aurora",
+          "state": "CO",
+          "metro": "Denver",
+          "region": "West"
+        },
+        {
+          "specialty": "Vascular Surgery",
+          "specialty_category": "Vascular Surgery",
+          "institution": "NYU Grossman School of Medicine",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        }
+      ]
+    },
+    {
       "id": "columbia_2024",
       "school_id": "columbia",
       "school_name": "Columbia Vagelos College of Physicians and Surgeons",
@@ -1221,6 +2517,1878 @@
           "state": "PA",
           "metro": "Philadelphia",
           "region": "Northeast"
+        }
+      ]
+    },
+    {
+      "id": "cwru_2023",
+      "school_id": "cwru",
+      "school_name": "Case Western Reserve University SOM",
+      "year": 2023,
+      "class_size": 207,
+      "matches": [
+        {
+          "specialty": "Anesthesiology",
+          "specialty_category": "Anesthesiology",
+          "institution": "University of Michigan Medical Center",
+          "city": "Ann Arbor",
+          "state": "MI",
+          "metro": "Ann Arbor",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Anesthesiology",
+          "specialty_category": "Anesthesiology",
+          "institution": "Beth Israel Deaconess Medical Center",
+          "city": "Boston",
+          "state": "MA",
+          "metro": "Boston",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Anesthesiology",
+          "specialty_category": "Anesthesiology",
+          "institution": "Brigham & Women's Hospital",
+          "city": "Boston",
+          "state": "MA",
+          "metro": "Boston",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Anesthesiology",
+          "specialty_category": "Anesthesiology",
+          "institution": "Montefiore Medical Center/Einstein",
+          "city": "Bronx",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Anesthesiology",
+          "specialty_category": "Anesthesiology",
+          "institution": "Cleveland Clinic",
+          "city": "Cleveland",
+          "state": "OH",
+          "metro": "Cleveland",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Anesthesiology",
+          "specialty_category": "Anesthesiology",
+          "institution": "Cleveland Clinic",
+          "city": "Cleveland",
+          "state": "OH",
+          "metro": "Cleveland",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Anesthesiology",
+          "specialty_category": "Anesthesiology",
+          "institution": "Cleveland Clinic",
+          "city": "Cleveland",
+          "state": "OH",
+          "metro": "Cleveland",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Anesthesiology",
+          "specialty_category": "Anesthesiology",
+          "institution": "CWRU/University Hospitals Cleveland Medical Center",
+          "city": "Cleveland",
+          "state": "OH",
+          "metro": "Cleveland",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Anesthesiology",
+          "specialty_category": "Anesthesiology",
+          "institution": "Ohio State University Medical Center",
+          "city": "Columbus",
+          "state": "OH",
+          "metro": "Columbus",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Anesthesiology",
+          "specialty_category": "Anesthesiology",
+          "institution": "UCLA Medical Center",
+          "city": "Los Angeles",
+          "state": "CA",
+          "metro": "Los Angeles",
+          "region": "West"
+        },
+        {
+          "specialty": "Anesthesiology",
+          "specialty_category": "Anesthesiology",
+          "institution": "New York Presbyterian Hospital - Columbia University Medical Center",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Anesthesiology",
+          "specialty_category": "Anesthesiology",
+          "institution": "New York Presbyterian Hospital - Columbia University Medical Center",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Anesthesiology",
+          "specialty_category": "Anesthesiology",
+          "institution": "University of California San Diego Medical Center",
+          "city": "San Diego",
+          "state": "CA",
+          "metro": "San Diego",
+          "region": "West"
+        },
+        {
+          "specialty": "Anesthesiology",
+          "specialty_category": "Anesthesiology",
+          "institution": "Los Robles Heaith System",
+          "city": "Thousand Oaks",
+          "state": "CA",
+          "metro": "Los Angeles",
+          "region": "West"
+        },
+        {
+          "specialty": "Anesthesiology",
+          "specialty_category": "Anesthesiology",
+          "institution": "Harbor - UCLA Medical Center",
+          "city": "Torrance",
+          "state": "CA",
+          "metro": "Los Angeles",
+          "region": "West"
+        },
+        {
+          "specialty": "Child Neurology",
+          "specialty_category": "Child Neurology",
+          "institution": "Phoenix Children's Hospital",
+          "city": "Phoenix",
+          "state": "AZ",
+          "metro": "Phoenix",
+          "region": "West"
+        },
+        {
+          "specialty": "Dermatology",
+          "specialty_category": "Dermatology",
+          "institution": "Cleveland Clinic",
+          "city": "Cleveland",
+          "state": "OH",
+          "metro": "Cleveland",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Dermatology",
+          "specialty_category": "Dermatology",
+          "institution": "CWRU/MetroHealth Medical Center",
+          "city": "Cleveland",
+          "state": "OH",
+          "metro": "Cleveland",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Dermatology",
+          "specialty_category": "Dermatology",
+          "institution": "CWRU/University Hospitals Cleveland Medical Center",
+          "city": "Cleveland",
+          "state": "OH",
+          "metro": "Cleveland",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Dermatology",
+          "specialty_category": "Dermatology",
+          "institution": "CWRU/University Hospitals Cleveland Medical Center",
+          "city": "Cleveland",
+          "state": "OH",
+          "metro": "Cleveland",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Dermatology",
+          "specialty_category": "Dermatology",
+          "institution": "CWRU/University Hospitals Cleveland Medical Center",
+          "city": "Cleveland",
+          "state": "OH",
+          "metro": "Cleveland",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Dermatology",
+          "specialty_category": "Dermatology",
+          "institution": "UC Davis Medical Center",
+          "city": "Sacramento",
+          "state": "CA",
+          "metro": "Sacramento",
+          "region": "West"
+        },
+        {
+          "specialty": "Dermatology Res & Cut Onc Fell/4 yr",
+          "specialty_category": "Dermatology",
+          "institution": "Hospital of the University of Pennsylvania",
+          "city": "Philadelphia",
+          "state": "PA",
+          "metro": "Philadelphia",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Emergency Medicine",
+          "specialty_category": "Emergency Medicine",
+          "institution": "University New Mexico School of Medicine",
+          "city": "Albuquerque",
+          "state": "NM",
+          "metro": "Albuquerque",
+          "region": "West"
+        },
+        {
+          "specialty": "Emergency Medicine",
+          "specialty_category": "Emergency Medicine",
+          "institution": "Northwestern McGaw/NMH/VA",
+          "city": "Chicago",
+          "state": "IL",
+          "metro": "Chicago",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Emergency Medicine",
+          "specialty_category": "Emergency Medicine",
+          "institution": "Northwestern McGaw/NMH/VA",
+          "city": "Chicago",
+          "state": "IL",
+          "metro": "Chicago",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Emergency Medicine",
+          "specialty_category": "Emergency Medicine",
+          "institution": "University of Cincinnati Medical Center",
+          "city": "Cincinnati",
+          "state": "OH",
+          "metro": "Cincinnati",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Emergency Medicine",
+          "specialty_category": "Emergency Medicine",
+          "institution": "CWRU/MetroHealth Medical Center",
+          "city": "Cleveland",
+          "state": "OH",
+          "metro": "Cleveland",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Emergency Medicine",
+          "specialty_category": "Emergency Medicine",
+          "institution": "CWRU/University Hospitals Cleveland Medical Center",
+          "city": "Cleveland",
+          "state": "OH",
+          "metro": "Cleveland",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Emergency Medicine",
+          "specialty_category": "Emergency Medicine",
+          "institution": "Arrowhed Regional Medical Center",
+          "city": "Colton",
+          "state": "CA",
+          "metro": "Inland Empire",
+          "region": "West"
+        },
+        {
+          "specialty": "Emergency Medicine",
+          "specialty_category": "Emergency Medicine",
+          "institution": "Icahn School of Medicine at Morningside West",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Emergency Medicine",
+          "specialty_category": "Emergency Medicine",
+          "institution": "New York Presbyterian Hospital - Columbia & Cornell",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Emergency Medicine",
+          "specialty_category": "Emergency Medicine",
+          "institution": "Hospital of the University of Pennsylvania",
+          "city": "Philadelphia",
+          "state": "PA",
+          "metro": "Philadelphia",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Emergency Medicine",
+          "specialty_category": "Emergency Medicine",
+          "institution": "University of Pittsburgh Medical Center",
+          "city": "Pittsburgh",
+          "state": "PA",
+          "metro": "Pittsburgh",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Emergency Medicine",
+          "specialty_category": "Emergency Medicine",
+          "institution": "Mayo Clinic School of Graduate Medical Education",
+          "city": "Rochester",
+          "state": "MN",
+          "metro": "Rochester MN",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Emergency Medicine",
+          "specialty_category": "Emergency Medicine",
+          "institution": "MedStar Washington Hospital Center",
+          "city": "Washington",
+          "state": "DC",
+          "metro": "Washington DC",
+          "region": "South"
+        },
+        {
+          "specialty": "Family Medicine",
+          "specialty_category": "Family Medicine",
+          "institution": "MacNeal Hospital",
+          "city": "Berwyn",
+          "state": "IL",
+          "metro": "Chicago",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Family Medicine",
+          "specialty_category": "Family Medicine",
+          "institution": "Bon Secours Health System",
+          "city": "Midlothian",
+          "state": "VA",
+          "metro": "Richmond",
+          "region": "South"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "University of Michigan Medical Center",
+          "city": "Ann Arbor",
+          "state": "MI",
+          "metro": "Ann Arbor",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "University of Michigan Medical Center",
+          "city": "Ann Arbor",
+          "state": "MI",
+          "metro": "Ann Arbor",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "University of Michigan Medical Center",
+          "city": "Ann Arbor",
+          "state": "MI",
+          "metro": "Ann Arbor",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "University of Michigan Medical Center",
+          "city": "Ann Arbor",
+          "state": "MI",
+          "metro": "Ann Arbor",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "Emory University School of Medicine",
+          "city": "Atlanta",
+          "state": "GA",
+          "metro": "Atlanta",
+          "region": "South"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "Emory University School of Medicine",
+          "city": "Atlanta",
+          "state": "GA",
+          "metro": "Atlanta",
+          "region": "South"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "University of Colorado School of Medicine - Denver",
+          "city": "Aurora",
+          "state": "CO",
+          "metro": "Denver",
+          "region": "West"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "University of Washington",
+          "city": "Boise",
+          "state": "ID",
+          "metro": "Boise",
+          "region": "West"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "Beth Israel Deaconess Medical Center",
+          "city": "Boston",
+          "state": "MA",
+          "metro": "Boston",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "Boston University Medical Center",
+          "city": "Boston",
+          "state": "MA",
+          "metro": "Boston",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "Massachusetts General Hospital",
+          "city": "Boston",
+          "state": "MA",
+          "metro": "Boston",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "Massachusetts General Hospital",
+          "city": "Boston",
+          "state": "MA",
+          "metro": "Boston",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "Massachusetts General Hospital",
+          "city": "Boston",
+          "state": "MA",
+          "metro": "Boston",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "Northwestern McGaw/NMH/VA",
+          "city": "Chicago",
+          "state": "IL",
+          "metro": "Chicago",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "Northwestern McGaw/NMH/VA",
+          "city": "Chicago",
+          "state": "IL",
+          "metro": "Chicago",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "CWRU/University Hospitals Cleveland Medical Center",
+          "city": "Cleveland",
+          "state": "OH",
+          "metro": "Cleveland",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "CWRU/University Hospitals Cleveland Medical Center",
+          "city": "Cleveland",
+          "state": "OH",
+          "metro": "Cleveland",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "CWRU/University Hospitals Cleveland Medical Center",
+          "city": "Cleveland",
+          "state": "OH",
+          "metro": "Cleveland",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "CWRU/University Hospitals Cleveland Medical Center",
+          "city": "Cleveland",
+          "state": "OH",
+          "metro": "Cleveland",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "University of Texas Southwestern Medical School",
+          "city": "Dallas",
+          "state": "TX",
+          "metro": "Dallas-Fort Worth",
+          "region": "South"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "Wright Patterson Air Force Base",
+          "city": "Dayton",
+          "state": "OH",
+          "metro": "Dayton",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "Duke University Medical Center",
+          "city": "Durham",
+          "state": "NC",
+          "metro": "Raleigh-Durham",
+          "region": "South"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "Baylor College of Medicine",
+          "city": "Houston",
+          "state": "TX",
+          "metro": "Houston",
+          "region": "South"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "Prime West Consortium",
+          "city": "Inglewood",
+          "state": "CA",
+          "metro": "Los Angeles",
+          "region": "West"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "Mayo Clinic School of Graduate Medical Education",
+          "city": "Jacksonville",
+          "state": "FL",
+          "metro": "Jacksonville",
+          "region": "South"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "Cedars - Sinai Med Center",
+          "city": "Los Angeles",
+          "state": "CA",
+          "metro": "Los Angeles",
+          "region": "West"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "UCLA Medical Center",
+          "city": "Los Angeles",
+          "state": "CA",
+          "metro": "Los Angeles",
+          "region": "West"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "Loyola University Medical Center",
+          "city": "Maywood",
+          "state": "IL",
+          "metro": "Chicago",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "Tulane University School of Medicine",
+          "city": "New Orleans",
+          "state": "LA",
+          "metro": "New Orleans",
+          "region": "South"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "Icahn School of Medicine at Mount Sinai",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "Icahn School of Medicine at Mount Sinai",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "Icahn School of Medicine at Mount Sinai",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "New York Presbyterian Hospital - Columbia University Medical Center",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "NYU Grossman School of Medicine",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "UC Irvine Medical Center",
+          "city": "Orange",
+          "state": "CA",
+          "metro": "Los Angeles",
+          "region": "West"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "University of Pittsburgh Medical Center",
+          "city": "Pittsburgh",
+          "state": "PA",
+          "metro": "Pittsburgh",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "University of Pittsburgh Medical Center",
+          "city": "Pittsburgh",
+          "state": "PA",
+          "metro": "Pittsburgh",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "University of Pittsburgh Medical Center",
+          "city": "Pittsburgh",
+          "state": "PA",
+          "metro": "Pittsburgh",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "University of Pittsburgh Medical Center",
+          "city": "Pittsburgh",
+          "state": "PA",
+          "metro": "Pittsburgh",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "University of Pittsburgh Medical Center",
+          "city": "Pittsburgh",
+          "state": "PA",
+          "metro": "Pittsburgh",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "University of Pittsburgh Medical Center",
+          "city": "Pittsburgh",
+          "state": "PA",
+          "metro": "Pittsburgh",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "Brown University/Rhode Island Hospital",
+          "city": "Providence",
+          "state": "RI",
+          "metro": "Providence",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "Mayo Clinic School of Graduate Medical Education",
+          "city": "Rochester",
+          "state": "MN",
+          "metro": "Rochester MN",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "Mayo Clinic School of Graduate Medical Education",
+          "city": "Rochester",
+          "state": "MN",
+          "metro": "Rochester MN",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "University of Utah Health",
+          "city": "Salt Lake City",
+          "state": "UT",
+          "metro": "Salt Lake City",
+          "region": "West"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "University of California San Diego Medical Center",
+          "city": "San Diego",
+          "state": "CA",
+          "metro": "San Diego",
+          "region": "West"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "University of California San Francisco Medical Center",
+          "city": "San Francisco",
+          "state": "CA",
+          "metro": "San Francisco Bay Area",
+          "region": "West"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "Barnes - Jewish Hospital",
+          "city": "St Louis",
+          "state": "MO",
+          "metro": "St. Louis",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Internal Medicine",
+          "specialty_category": "Internal Medicine",
+          "institution": "Barnes - Jewish Hospital",
+          "city": "St Louis",
+          "state": "MO",
+          "metro": "St. Louis",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Internal Medicine/ABIM Research Path",
+          "specialty_category": "Internal Medicine",
+          "institution": "Vanderbilt University Medical Center",
+          "city": "Nashville",
+          "state": "TN",
+          "metro": "Nashville",
+          "region": "South"
+        },
+        {
+          "specialty": "Internal Medicine/ABIM Research Path",
+          "specialty_category": "Internal Medicine",
+          "institution": "University of Pittsburgh Medical Center",
+          "city": "Pittsburgh",
+          "state": "PA",
+          "metro": "Pittsburgh",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Internal Medicine/MPH",
+          "specialty_category": "Internal Medicine",
+          "institution": "Kaiser Permanente",
+          "city": "Oakland",
+          "state": "CA",
+          "metro": "San Francisco Bay Area",
+          "region": "West"
+        },
+        {
+          "specialty": "Internal Medicine/Research",
+          "specialty_category": "Internal Medicine",
+          "institution": "New York Presbyterian Hospital - Weill Cornell Med Center",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Internal Medicine/Pediatrics",
+          "specialty_category": "Internal Medicine-Pediatrics",
+          "institution": "Johns Hopkins Hospital",
+          "city": "Baltimore",
+          "state": "MD",
+          "metro": "Baltimore",
+          "region": "South"
+        },
+        {
+          "specialty": "Internal Medicine/Pediatrics",
+          "specialty_category": "Internal Medicine-Pediatrics",
+          "institution": "University of Maryland Medical Center",
+          "city": "Baltimore",
+          "state": "MD",
+          "metro": "Baltimore",
+          "region": "South"
+        },
+        {
+          "specialty": "Internal Medicine/Pediatrics",
+          "specialty_category": "Internal Medicine-Pediatrics",
+          "institution": "CWRU/University Hospitals Cleveland Medical Center",
+          "city": "Cleveland",
+          "state": "OH",
+          "metro": "Cleveland",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Interventional Radiology (Integrated)",
+          "specialty_category": "Interventional Radiology",
+          "institution": "University of Michigan Medical Center",
+          "city": "Ann Arbor",
+          "state": "MI",
+          "metro": "Ann Arbor",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Interventional Radiology (Integrated)",
+          "specialty_category": "Interventional Radiology",
+          "institution": "Medical College of Wisconsin Affiliated Hospitals",
+          "city": "Milwaukee",
+          "state": "WI",
+          "metro": "Milwaukee",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Neurological Surgery",
+          "specialty_category": "Neurological Surgery",
+          "institution": "CWRU/University Hospitals Cleveland Medical Center",
+          "city": "Cleveland",
+          "state": "OH",
+          "metro": "Cleveland",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Neurological Surgery",
+          "specialty_category": "Neurological Surgery",
+          "institution": "UCLA Medical Center",
+          "city": "Los Angeles",
+          "state": "CA",
+          "metro": "Los Angeles",
+          "region": "West"
+        },
+        {
+          "specialty": "Neurological Surgery",
+          "specialty_category": "Neurological Surgery",
+          "institution": "Vanderbilt University Medical Center",
+          "city": "Nashville",
+          "state": "TN",
+          "metro": "Nashville",
+          "region": "South"
+        },
+        {
+          "specialty": "Neurological Surgery",
+          "specialty_category": "Neurological Surgery",
+          "institution": "LSU Health New Orleans School of Medicine",
+          "city": "New Orleans",
+          "state": "LA",
+          "metro": "New Orleans",
+          "region": "South"
+        },
+        {
+          "specialty": "Neurology",
+          "specialty_category": "Neurology",
+          "institution": "Beth Israel Deaconess Medical Center",
+          "city": "Boston",
+          "state": "MA",
+          "metro": "Boston",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Neurology",
+          "specialty_category": "Neurology",
+          "institution": "University of North Carolina Hospitals",
+          "city": "Chapel Hill",
+          "state": "NC",
+          "metro": "Raleigh-Durham",
+          "region": "South"
+        },
+        {
+          "specialty": "Neurology",
+          "specialty_category": "Neurology",
+          "institution": "Duke University Medical Center",
+          "city": "Durham",
+          "state": "NC",
+          "metro": "Raleigh-Durham",
+          "region": "South"
+        },
+        {
+          "specialty": "Neurology",
+          "specialty_category": "Neurology",
+          "institution": "Yale - New Haven Hospital",
+          "city": "New Haven",
+          "state": "CT",
+          "metro": "New Haven",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Neurology",
+          "specialty_category": "Neurology",
+          "institution": "New York Presbyterian Hospital - Columbia University Medical Center",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Neurology",
+          "specialty_category": "Neurology",
+          "institution": "Virginia Commonwealth University Health System",
+          "city": "Richmond",
+          "state": "VA",
+          "metro": "Richmond",
+          "region": "South"
+        },
+        {
+          "specialty": "Neurology",
+          "specialty_category": "Neurology",
+          "institution": "Barnes - Jewish Hospital",
+          "city": "St Louis",
+          "state": "MO",
+          "metro": "St. Louis",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Obstetrics and Gynecology",
+          "specialty_category": "Obstetrics-Gynecology",
+          "institution": "Lehigh Valley Hospital",
+          "city": "Allentown",
+          "state": "PA",
+          "metro": "Allentown",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Obstetrics and Gynecology",
+          "specialty_category": "Obstetrics-Gynecology",
+          "institution": "Brigham & Women's Hospital",
+          "city": "Boston",
+          "state": "MA",
+          "metro": "Boston",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Obstetrics and Gynecology",
+          "specialty_category": "Obstetrics-Gynecology",
+          "institution": "New York- Presbyterian Brooklyn Methodist Hospital",
+          "city": "Brooklyn",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Obstetrics and Gynecology",
+          "specialty_category": "Obstetrics-Gynecology",
+          "institution": "CWRU/University Hospitals Cleveland Medical Center",
+          "city": "Cleveland",
+          "state": "OH",
+          "metro": "Cleveland",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Obstetrics and Gynecology",
+          "specialty_category": "Obstetrics-Gynecology",
+          "institution": "CWRU/University Hospitals Cleveland Medical Center",
+          "city": "Cleveland",
+          "state": "OH",
+          "metro": "Cleveland",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Obstetrics and Gynecology",
+          "specialty_category": "Obstetrics-Gynecology",
+          "institution": "CWRU/University Hospitals Cleveland Medical Center",
+          "city": "Cleveland",
+          "state": "OH",
+          "metro": "Cleveland",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Obstetrics and Gynecology",
+          "specialty_category": "Obstetrics-Gynecology",
+          "institution": "University of Florida College of Medicine - Shands Hospital",
+          "city": "Gainesville",
+          "state": "FL",
+          "metro": "Gainesville",
+          "region": "South"
+        },
+        {
+          "specialty": "Obstetrics and Gynecology",
+          "specialty_category": "Obstetrics-Gynecology",
+          "institution": "UCLA Medical Center",
+          "city": "Los Angeles",
+          "state": "CA",
+          "metro": "Los Angeles",
+          "region": "West"
+        },
+        {
+          "specialty": "Obstetrics and Gynecology",
+          "specialty_category": "Obstetrics-Gynecology",
+          "institution": "Texas Tech University Health Sciences Center - Permian Basin",
+          "city": "Odessa",
+          "state": "TX",
+          "metro": "Odessa",
+          "region": "South"
+        },
+        {
+          "specialty": "Ophthalmology",
+          "specialty_category": "Ophthalmology",
+          "institution": "University of Chicago",
+          "city": "Chicago",
+          "state": "IL",
+          "metro": "Chicago",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Ophthalmology",
+          "specialty_category": "Ophthalmology",
+          "institution": "Cleveland Clinic",
+          "city": "Cleveland",
+          "state": "OH",
+          "metro": "Cleveland",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Ophthalmology",
+          "specialty_category": "Ophthalmology",
+          "institution": "Cleveland Clinic",
+          "city": "Cleveland",
+          "state": "OH",
+          "metro": "Cleveland",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Ophthalmology",
+          "specialty_category": "Ophthalmology",
+          "institution": "CWRU/University Hospitals Cleveland Medical Center",
+          "city": "Cleveland",
+          "state": "OH",
+          "metro": "Cleveland",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Ophthalmology",
+          "specialty_category": "Ophthalmology",
+          "institution": "CWRU/University Hospitals Cleveland Medical Center",
+          "city": "Cleveland",
+          "state": "OH",
+          "metro": "Cleveland",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Ophthalmology",
+          "specialty_category": "Ophthalmology",
+          "institution": "CWRU/University Hospitals Cleveland Medical Center",
+          "city": "Cleveland",
+          "state": "OH",
+          "metro": "Cleveland",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Ophthalmology",
+          "specialty_category": "Ophthalmology",
+          "institution": "Ohio State University Medical Center",
+          "city": "Columbus",
+          "state": "OH",
+          "metro": "Columbus",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Ophthalmology",
+          "specialty_category": "Ophthalmology",
+          "institution": "Henry Ford Hospital",
+          "city": "Detroit",
+          "state": "MI",
+          "metro": "Detroit",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Ophthalmology",
+          "specialty_category": "Ophthalmology",
+          "institution": "Duke University Medical Center",
+          "city": "Durham",
+          "state": "NC",
+          "metro": "Raleigh-Durham",
+          "region": "South"
+        },
+        {
+          "specialty": "Ophthalmology",
+          "specialty_category": "Ophthalmology",
+          "institution": "Keck Medicine of USC - USC Roski Eye Institute",
+          "city": "Los Angeles",
+          "state": "CA",
+          "metro": "Los Angeles",
+          "region": "West"
+        },
+        {
+          "specialty": "Ophthalmology",
+          "specialty_category": "Ophthalmology",
+          "institution": "University of Pittsburgh Medical Center",
+          "city": "Pittsburgh",
+          "state": "PA",
+          "metro": "Pittsburgh",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Ophthalmology",
+          "specialty_category": "Ophthalmology",
+          "institution": "University of Texas Health Science Center",
+          "city": "San Antonio",
+          "state": "TX",
+          "metro": "San Antonio",
+          "region": "South"
+        },
+        {
+          "specialty": "Ophthalmology",
+          "specialty_category": "Ophthalmology",
+          "institution": "George Washington University",
+          "city": "Washington",
+          "state": "DC",
+          "metro": "Washington DC",
+          "region": "South"
+        },
+        {
+          "specialty": "Oral/Maxillofacial Surgery",
+          "specialty_category": "Oral Maxillofacial Surgery",
+          "institution": "CWRU/University Hospitals Cleveland Medical Center",
+          "city": "Cleveland",
+          "state": "OH",
+          "metro": "Cleveland",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Oral/Maxillofacial Surgery",
+          "specialty_category": "Oral Maxillofacial Surgery",
+          "institution": "CWRU/University Hospitals Cleveland Medical Center",
+          "city": "Cleveland",
+          "state": "OH",
+          "metro": "Cleveland",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Oral/Maxillofacial Surgery",
+          "specialty_category": "Oral Maxillofacial Surgery",
+          "institution": "CWRU/University Hospitals Cleveland Medical Center",
+          "city": "Cleveland",
+          "state": "OH",
+          "metro": "Cleveland",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Orthopaedic Surgery",
+          "specialty_category": "Orthopaedic Surgery",
+          "institution": "University of Virginia",
+          "city": "Charlottesville",
+          "state": "VA",
+          "metro": "Charlottesville",
+          "region": "South"
+        },
+        {
+          "specialty": "Orthopaedic Surgery",
+          "specialty_category": "Orthopaedic Surgery",
+          "institution": "Cleveland Clinic",
+          "city": "Cleveland",
+          "state": "OH",
+          "metro": "Cleveland",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Orthopaedic Surgery",
+          "specialty_category": "Orthopaedic Surgery",
+          "institution": "Cleveland Clinic",
+          "city": "Cleveland",
+          "state": "OH",
+          "metro": "Cleveland",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Orthopaedic Surgery",
+          "specialty_category": "Orthopaedic Surgery",
+          "institution": "CWRU/University Hospitals Cleveland Medical Center",
+          "city": "Cleveland",
+          "state": "OH",
+          "metro": "Cleveland",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Orthopaedic Surgery",
+          "specialty_category": "Orthopaedic Surgery",
+          "institution": "University of Wisconsin Hospital and Clinics",
+          "city": "Madison",
+          "state": "WI",
+          "metro": "Madison",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Orthopaedic Surgery",
+          "specialty_category": "Orthopaedic Surgery",
+          "institution": "Medical College of Wisconsin Affiliated Hospitals",
+          "city": "Milwaukee",
+          "state": "WI",
+          "metro": "Milwaukee",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Orthopaedic Surgery",
+          "specialty_category": "Orthopaedic Surgery",
+          "institution": "NYU Grossman School of Medicine",
+          "city": "New York",
+          "state": "NY",
+          "metro": "New York City",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Orthopaedic Surgery",
+          "specialty_category": "Orthopaedic Surgery",
+          "institution": "Oregon Health & Science University",
+          "city": "Portland",
+          "state": "OR",
+          "metro": "Portland",
+          "region": "West"
+        },
+        {
+          "specialty": "Orthopaedic Surgery",
+          "specialty_category": "Orthopaedic Surgery",
+          "institution": "University of Rochester/Strong Memorial",
+          "city": "Rochester",
+          "state": "NY",
+          "metro": "Rochester NY",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Orthopaedic Surgery",
+          "specialty_category": "Orthopaedic Surgery",
+          "institution": "Beaumont Health",
+          "city": "Royal Oak",
+          "state": "MI",
+          "metro": "Detroit",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Orthopaedic Surgery",
+          "specialty_category": "Orthopaedic Surgery",
+          "institution": "University of Washington Affiliate Hospitals",
+          "city": "Seattle",
+          "state": "WA",
+          "metro": "Seattle",
+          "region": "West"
+        },
+        {
+          "specialty": "Orthopaedic Surgery",
+          "specialty_category": "Orthopaedic Surgery",
+          "institution": "Massachusetts General Hospital-Harvard Combined",
+          "city": "Boston",
+          "state": "MA",
+          "metro": "Boston",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Orthopaedic Surgery/Research 6 yr",
+          "specialty_category": "Orthopaedic Surgery",
+          "institution": "University of North Carolina Hospitals",
+          "city": "Chapel Hill",
+          "state": "NC",
+          "metro": "Raleigh-Durham",
+          "region": "South"
+        },
+        {
+          "specialty": "Otolaryngology",
+          "specialty_category": "Otolaryngology",
+          "institution": "Johns Hopkins Hospital",
+          "city": "Baltimore",
+          "state": "MD",
+          "metro": "Baltimore",
+          "region": "South"
+        },
+        {
+          "specialty": "Otolaryngology",
+          "specialty_category": "Otolaryngology",
+          "institution": "University of Maryland Medical Center",
+          "city": "Baltimore",
+          "state": "MD",
+          "metro": "Baltimore",
+          "region": "South"
+        },
+        {
+          "specialty": "Otolaryngology",
+          "specialty_category": "Otolaryngology",
+          "institution": "Cleveland Clinic",
+          "city": "Cleveland",
+          "state": "OH",
+          "metro": "Cleveland",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Otolaryngology",
+          "specialty_category": "Otolaryngology",
+          "institution": "University of Tennessee Health Science Center",
+          "city": "Memphis",
+          "state": "TN",
+          "metro": "Memphis",
+          "region": "South"
+        },
+        {
+          "specialty": "Otolaryngology",
+          "specialty_category": "Otolaryngology",
+          "institution": "Stanford Health Care",
+          "city": "Stanford",
+          "state": "CA",
+          "metro": "San Francisco Bay Area",
+          "region": "West"
+        },
+        {
+          "specialty": "Pathology/CP Research",
+          "specialty_category": "Pathology",
+          "institution": "CWRU/University Hospitals Cleveland Medical Center",
+          "city": "Cleveland",
+          "state": "OH",
+          "metro": "Cleveland",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Pathology-Anatomic and Clinical",
+          "specialty_category": "Pathology",
+          "institution": "Brigham & Women's Hospital",
+          "city": "Boston",
+          "state": "MA",
+          "metro": "Boston",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Pediatrics",
+          "specialty_category": "Pediatrics",
+          "institution": "University of Michigan Medical Center",
+          "city": "Ann Arbor",
+          "state": "MI",
+          "metro": "Ann Arbor",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Pediatrics",
+          "specialty_category": "Pediatrics",
+          "institution": "Boston Children's Hospital",
+          "city": "Boston",
+          "state": "MA",
+          "metro": "Boston",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Pediatrics",
+          "specialty_category": "Pediatrics",
+          "institution": "Northwestern McGaw/Lurie Children's",
+          "city": "Chicago",
+          "state": "IL",
+          "metro": "Chicago",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Pediatrics",
+          "specialty_category": "Pediatrics",
+          "institution": "CWRU/University Hospitals Cleveland Medical Center",
+          "city": "Cleveland",
+          "state": "OH",
+          "metro": "Cleveland",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Pediatrics",
+          "specialty_category": "Pediatrics",
+          "institution": "University of Minnesota Medical School",
+          "city": "Minneapolis",
+          "state": "MN",
+          "metro": "Twin Cities",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Pediatrics",
+          "specialty_category": "Pediatrics",
+          "institution": "Vanderbilt University Medical Center",
+          "city": "Nashville",
+          "state": "TN",
+          "metro": "Nashville",
+          "region": "South"
+        },
+        {
+          "specialty": "Pediatrics",
+          "specialty_category": "Pediatrics",
+          "institution": "Yale - New Haven Hospital",
+          "city": "New Haven",
+          "state": "CT",
+          "metro": "New Haven",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Pediatrics",
+          "specialty_category": "Pediatrics",
+          "institution": "Children's Hospital - Philadelphia",
+          "city": "Philadelphia",
+          "state": "PA",
+          "metro": "Philadelphia",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Pediatrics",
+          "specialty_category": "Pediatrics",
+          "institution": "University of Rochester/Strong Memorial",
+          "city": "Rochester",
+          "state": "NY",
+          "metro": "Rochester NY",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Pediatrics",
+          "specialty_category": "Pediatrics",
+          "institution": "Children's National Medical Center",
+          "city": "Washington",
+          "state": "DC",
+          "metro": "Washington DC",
+          "region": "South"
+        },
+        {
+          "specialty": "Pediatrics/Medical Genetics",
+          "specialty_category": "Pediatrics",
+          "institution": "Cincinnati Children's Hospital Medical Center",
+          "city": "Cincinnati",
+          "state": "OH",
+          "metro": "Cincinnati",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Physical Medicine and Rehabilitation",
+          "specialty_category": "Physical Medicine & Rehabilitation",
+          "institution": "Cleveland Clinic",
+          "city": "Cleveland",
+          "state": "OH",
+          "metro": "Cleveland",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Physical Medicine and Rehabilitation",
+          "specialty_category": "Physical Medicine & Rehabilitation",
+          "institution": "CWRU/MetroHealth Medical Center",
+          "city": "Cleveland",
+          "state": "OH",
+          "metro": "Cleveland",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Plastic Surgery (Integrated)",
+          "specialty_category": "Plastic Surgery",
+          "institution": "Cleveland Clinic",
+          "city": "Cleveland",
+          "state": "OH",
+          "metro": "Cleveland",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Plastic Surgery (Integrated)",
+          "specialty_category": "Plastic Surgery",
+          "institution": "UCLA Medical Center",
+          "city": "Los Angeles",
+          "state": "CA",
+          "metro": "Los Angeles",
+          "region": "West"
+        },
+        {
+          "specialty": "Plastic Surgery (Integrated)",
+          "specialty_category": "Plastic Surgery",
+          "institution": "UC Davis Medical Center",
+          "city": "Sacramento",
+          "state": "CA",
+          "metro": "Sacramento",
+          "region": "West"
+        },
+        {
+          "specialty": "Psychiatry",
+          "specialty_category": "Psychiatry",
+          "institution": "University New Mexico School of Medicine",
+          "city": "Albuquerque",
+          "state": "NM",
+          "metro": "Albuquerque",
+          "region": "West"
+        },
+        {
+          "specialty": "Psychiatry",
+          "specialty_category": "Psychiatry",
+          "institution": "Harvard South Shore",
+          "city": "Brockton",
+          "state": "MA",
+          "metro": "Boston",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Psychiatry",
+          "specialty_category": "Psychiatry",
+          "institution": "Northwestern McGaw/NMH/VA",
+          "city": "Chicago",
+          "state": "IL",
+          "metro": "Chicago",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Psychiatry",
+          "specialty_category": "Psychiatry",
+          "institution": "Cleveland Clinic",
+          "city": "Cleveland",
+          "state": "OH",
+          "metro": "Cleveland",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Psychiatry",
+          "specialty_category": "Psychiatry",
+          "institution": "Cleveland Clinic",
+          "city": "Cleveland",
+          "state": "OH",
+          "metro": "Cleveland",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Psychiatry",
+          "specialty_category": "Psychiatry",
+          "institution": "CWRU/University Hospitals Cleveland Medical Center",
+          "city": "Cleveland",
+          "state": "OH",
+          "metro": "Cleveland",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Psychiatry",
+          "specialty_category": "Psychiatry",
+          "institution": "Ohio State University Medical Center",
+          "city": "Columbus",
+          "state": "OH",
+          "metro": "Columbus",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Psychiatry",
+          "specialty_category": "Psychiatry",
+          "institution": "Ohio State University Medical Center",
+          "city": "Columbus",
+          "state": "OH",
+          "metro": "Columbus",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Psychiatry",
+          "specialty_category": "Psychiatry",
+          "institution": "Texas Institute for Graduate Medical Education and Research",
+          "city": "San Antonio",
+          "state": "TX",
+          "metro": "San Antonio",
+          "region": "South"
+        },
+        {
+          "specialty": "Psychiatry",
+          "specialty_category": "Psychiatry",
+          "institution": "University of Arizona College of Medicine",
+          "city": "Tucson",
+          "state": "AZ",
+          "metro": "Tucson",
+          "region": "West"
+        },
+        {
+          "specialty": "Radiation Oncology",
+          "specialty_category": "Radiation Oncology",
+          "institution": "Emory University School of Medicine",
+          "city": "Atlanta",
+          "state": "GA",
+          "metro": "Atlanta",
+          "region": "South"
+        },
+        {
+          "specialty": "Radiation Oncology",
+          "specialty_category": "Radiation Oncology",
+          "institution": "Cleveland Clinic",
+          "city": "Cleveland",
+          "state": "OH",
+          "metro": "Cleveland",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Radiology-Diagnostic",
+          "specialty_category": "Radiology-Diagnostic",
+          "institution": "Northwestern McGaw/NMH/VA",
+          "city": "Chicago",
+          "state": "IL",
+          "metro": "Chicago",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Radiology-Diagnostic",
+          "specialty_category": "Radiology-Diagnostic",
+          "institution": "Cleveland Clinic",
+          "city": "Cleveland",
+          "state": "OH",
+          "metro": "Cleveland",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Radiology-Diagnostic",
+          "specialty_category": "Radiology-Diagnostic",
+          "institution": "CWRU/University Hospitals Cleveland Medical Center",
+          "city": "Cleveland",
+          "state": "OH",
+          "metro": "Cleveland",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Radiology-Diagnostic",
+          "specialty_category": "Radiology-Diagnostic",
+          "institution": "Ohio State University Medical Center",
+          "city": "Columbus",
+          "state": "OH",
+          "metro": "Columbus",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Radiology-Diagnostic",
+          "specialty_category": "Radiology-Diagnostic",
+          "institution": "Ohio State University Medical Center",
+          "city": "Columbus",
+          "state": "OH",
+          "metro": "Columbus",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Radiology-Diagnostic",
+          "specialty_category": "Radiology-Diagnostic",
+          "institution": "Henry Ford Hospital",
+          "city": "Detroit",
+          "state": "MI",
+          "metro": "Detroit",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Radiology-Diagnostic",
+          "specialty_category": "Radiology-Diagnostic",
+          "institution": "Penn State Hershey Medical Center",
+          "city": "Hershey",
+          "state": "PA",
+          "metro": "Harrisburg",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Radiology-Diagnostic",
+          "specialty_category": "Radiology-Diagnostic",
+          "institution": "Madigan Army Medical Center",
+          "city": "Joint Base Lewis-McChord",
+          "state": "WA",
+          "metro": "Seattle",
+          "region": "West"
+        },
+        {
+          "specialty": "Radiology-Diagnostic",
+          "specialty_category": "Radiology-Diagnostic",
+          "institution": "Hospital of the University of Pennsylvania",
+          "city": "Philadelphia",
+          "state": "PA",
+          "metro": "Philadelphia",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Radiology-Diagnostic",
+          "specialty_category": "Radiology-Diagnostic",
+          "institution": "MedStar Georgetown University Hospital",
+          "city": "Washington",
+          "state": "DC",
+          "metro": "Washington DC",
+          "region": "South"
+        },
+        {
+          "specialty": "Radiology-Diagnostic",
+          "specialty_category": "Radiology-Diagnostic",
+          "institution": "University of Massachusetts Chan Medical School",
+          "city": "Worcester",
+          "state": "MA",
+          "metro": "Worcester",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Surgery-General",
+          "specialty_category": "General Surgery",
+          "institution": "University of Maryland Medical Center",
+          "city": "Baltimore",
+          "state": "MD",
+          "metro": "Baltimore",
+          "region": "South"
+        },
+        {
+          "specialty": "Surgery-General",
+          "specialty_category": "General Surgery",
+          "institution": "Beth Israel Deaconess Medical Center",
+          "city": "Boston",
+          "state": "MA",
+          "metro": "Boston",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Surgery-General",
+          "specialty_category": "General Surgery",
+          "institution": "Cleveland Clinic",
+          "city": "Cleveland",
+          "state": "OH",
+          "metro": "Cleveland",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Surgery-General",
+          "specialty_category": "General Surgery",
+          "institution": "Cleveland Clinic",
+          "city": "Cleveland",
+          "state": "OH",
+          "metro": "Cleveland",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Surgery-General",
+          "specialty_category": "General Surgery",
+          "institution": "Cleveland Clinic",
+          "city": "Cleveland",
+          "state": "OH",
+          "metro": "Cleveland",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Surgery-General",
+          "specialty_category": "General Surgery",
+          "institution": "CWRU/MetroHealth Medical Center",
+          "city": "Cleveland",
+          "state": "OH",
+          "metro": "Cleveland",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Surgery-General",
+          "specialty_category": "General Surgery",
+          "institution": "CWRU/University Hospitals Cleveland Medical Center",
+          "city": "Cleveland",
+          "state": "OH",
+          "metro": "Cleveland",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Surgery-General",
+          "specialty_category": "General Surgery",
+          "institution": "CWRU/University Hospitals Cleveland Medical Center",
+          "city": "Cleveland",
+          "state": "OH",
+          "metro": "Cleveland",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Surgery-General",
+          "specialty_category": "General Surgery",
+          "institution": "Hospital of the University of Pennsylvania",
+          "city": "Philadelphia",
+          "state": "PA",
+          "metro": "Philadelphia",
+          "region": "Northeast"
+        },
+        {
+          "specialty": "Surgery-General",
+          "specialty_category": "General Surgery",
+          "institution": "University of California San Francisco Medical Center",
+          "city": "San Francisco",
+          "state": "CA",
+          "metro": "San Francisco Bay Area",
+          "region": "West"
+        },
+        {
+          "specialty": "Urology",
+          "specialty_category": "Urology",
+          "institution": "University of Michigan Medical Center",
+          "city": "Ann Arbor",
+          "state": "MI",
+          "metro": "Ann Arbor",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Urology",
+          "specialty_category": "Urology",
+          "institution": "Rush University Medical Center",
+          "city": "Chicago",
+          "state": "IL",
+          "metro": "Chicago",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Urology",
+          "specialty_category": "Urology",
+          "institution": "CWRU/University Hospitals Cleveland Medical Center",
+          "city": "Cleveland",
+          "state": "OH",
+          "metro": "Cleveland",
+          "region": "Midwest"
+        },
+        {
+          "specialty": "Urology",
+          "specialty_category": "Urology",
+          "institution": "University of Florida College of Medicine",
+          "city": "Gainesville",
+          "state": "FL",
+          "metro": "Gainesville",
+          "region": "South"
+        },
+        {
+          "specialty": "Urology",
+          "specialty_category": "Urology",
+          "institution": "University of California San Francisco Medical Center",
+          "city": "San Francisco",
+          "state": "CA",
+          "metro": "San Francisco Bay Area",
+          "region": "West"
+        },
+        {
+          "specialty": "Vascular Surgery",
+          "specialty_category": "Vascular Surgery",
+          "institution": "Cleveland Clinic",
+          "city": "Cleveland",
+          "state": "OH",
+          "metro": "Cleveland",
+          "region": "Midwest"
         }
       ]
     },
