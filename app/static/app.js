@@ -305,16 +305,7 @@ let SMS_LAST = null;
 
 async function loadSmsInit() {
   SMS_LOADED = true;
-  const [summary, specs] = await Promise.all([
-    fetch("/api/sms/summary").then(r => r.json()),
-    fetch("/api/sms/specialties").then(r => r.json()),
-  ]);
-  $("sms-summary").innerHTML = `
-    <strong>${summary.summary.programs.toLocaleString()}</strong> programs across
-    <strong>${summary.summary.institutions}</strong> institutions in
-    <strong>${summary.summary.specialties}</strong> specialties · years
-    ${summary.years[summary.years.length - 1]}–${summary.years[0]}
-  `;
+  const specs = await fetch("/api/sms/specialties").then(r => r.json());
 
   const sel = $("sms-specialty");
   sel.innerHTML = `<option value="">— pick one —</option>` + specs.specialties.map(s => `
