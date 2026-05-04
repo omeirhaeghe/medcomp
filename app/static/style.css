@@ -108,6 +108,7 @@ main {
   font-weight: 600;
 }
 .tab-pane { display: contents; }
+.tab-pane[hidden] { display: none; }
 
 .sms-totals-grid {
   display: grid;
