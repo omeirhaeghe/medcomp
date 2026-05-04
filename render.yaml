@@ -3,6 +3,6 @@ services:
     name: medcomp
     runtime: python
     plan: free
-    buildCommand: pip install -r requirements.txt && python scripts/build.py
+    buildCommand: pip install -r requirements.txt && python scripts/build.py && python scripts/build_sms.py
     startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
     autoDeploy: true

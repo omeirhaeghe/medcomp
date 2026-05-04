@@ -11,11 +11,19 @@
   <div class="brand">M</div>
   <div class="brand-text">
     <h1>MedComp</h1>
-    <p class="tagline">Medical school residency match comparison</p>
+    <p class="tagline">Residency match comparison & NRMP fellowship data</p>
   </div>
 </header>
 
+<nav class="tabs">
+  <button class="tab-btn active" data-tab="schools">School Comparison</button>
+  <button class="tab-btn" data-tab="sms">2026 Match Data (NRMP Fellowship)</button>
+</nav>
+
 <main>
+  <!-- ============= TAB: School Comparison ============= -->
+  <div class="tab-pane" id="tab-schools">
+
   <section class="panel">
     <div class="panel-head">
       <span class="step-num">1</span>
@@ -101,7 +109,59 @@
     </div>
   </section>
 
-  <footer>MedComp · data sourced from school-published match lists</footer>
+  </div>
+  <!-- ============= /TAB: School Comparison ============= -->
+
+  <!-- ============= TAB: SMS Fellowship ============= -->
+  <div class="tab-pane" id="tab-sms" hidden>
+
+  <section class="panel">
+    <div class="panel-head">
+      <span class="step-num">i</span>
+      <h2>About this dataset</h2>
+    </div>
+    <p class="panel-hint">
+      NRMP <strong>Specialties Matching Service®</strong> (SMS) — fellowship subspecialty
+      programs across the U.S. Five appointment years (2022–2026). For each program, you
+      can see year-by-year quota (positions offered) and number filled.
+    </p>
+    <div id="sms-summary" class="muted"></div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-head">
+      <span class="step-num">1</span>
+      <h2>Pick a specialty</h2>
+    </div>
+    <div class="filter-row">
+      <label style="flex: 2;">Fellowship specialty
+        <select id="sms-specialty"></select>
+      </label>
+    </div>
+  </section>
+
+  <section class="panel" id="sms-results-panel" hidden>
+    <div class="panel-head">
+      <span class="step-num">2</span>
+      <h2>Year-over-year totals</h2>
+    </div>
+    <div id="sms-totals"></div>
+
+    <div class="subhead">
+      <h3>Programs</h3>
+      <label class="inline">Filter by state
+        <select id="sms-state-filter">
+          <option value="">all states</option>
+        </select>
+      </label>
+    </div>
+    <div id="sms-programs"></div>
+  </section>
+
+  </div>
+  <!-- ============= /TAB: SMS Fellowship ============= -->
+
+  <footer>MedComp · school match data and NRMP SMS fellowship data</footer>
 </main>
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>

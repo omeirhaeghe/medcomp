@@ -11,6 +11,9 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA = json.loads((ROOT / "data" / "matches.json").read_text())
 SCHOOLS_BY_ID = {s["id"]: s for s in DATA["schools"]}
 
+SMS_PATH = ROOT / "data" / "sms.json"
+SMS = json.loads(SMS_PATH.read_text()) if SMS_PATH.exists() else None
+
 app = FastAPI(title="MedComp", description="Medical school match list comparison")
 app.mount("/static", StaticFiles(directory=ROOT / "app" / "static"), name="static")
 
@@ -93,6 +96,67 @@ def compare(
         })
 
     return {"filters": {k: v for k, v in filters.items() if v}, "results": results}
+
+
+@app.get("/api/sms/summary")
+def sms_summary() -> dict:
+    if not SMS:
+        raise HTTPException(404, "SMS data not loaded")
+    return {"years": SMS["years"], "summary": SMS["summary"]}
+
+
+@app.get("/api/sms/specialties")
+def sms_specialties() -> dict:
+    """List all NRMP SMS specialties with program counts and aggregate fill rates."""
+    if not SMS:
+        raise HTTPException(404, "SMS data not loaded")
+    rows = []
+    for spec, programs in SMS["by_specialty"].items():
+        # Aggregate quota and filled across all programs and years
+        total_quota = total_filled = 0
+        for p in programs:
+            for yr in SMS["years"]:
+                cell = p["by_year"][str(yr)]
+                if cell["quota"] is not None:
+                    total_quota += cell["quota"]
+                if cell["filled"] is not None:
+                    total_filled += cell["filled"]
+        rows.append({
+            "specialty": spec,
+            "program_count": len(programs),
+            "total_quota_5yr": total_quota,
+            "total_filled_5yr": total_filled,
+            "fill_rate_5yr": round(total_filled / total_quota * 100, 1) if total_quota else 0,
+        })
+    rows.sort(key=lambda r: -r["program_count"])
+    return {"specialties": rows}
+
+
+@app.get("/api/sms/programs")
+def sms_programs(specialty: str) -> dict:
+    """List all programs for a specialty with 5-year quota/filled and per-year totals."""
+    if not SMS:
+        raise HTTPException(404, "SMS data not loaded")
+    programs = SMS["by_specialty"].get(specialty)
+    if programs is None:
+        raise HTTPException(404, f"Unknown specialty: {specialty}")
+
+    # Per-year aggregate totals across all programs in this specialty
+    totals = {str(yr): {"quota": 0, "filled": 0} for yr in SMS["years"]}
+    for p in programs:
+        for yr in SMS["years"]:
+            cell = p["by_year"][str(yr)]
+            if cell["quota"] is not None:
+                totals[str(yr)]["quota"] += cell["quota"]
+            if cell["filled"] is not None:
+                totals[str(yr)]["filled"] += cell["filled"]
+
+    return {
+        "specialty": specialty,
+        "years": SMS["years"],
+        "totals_by_year": totals,
+        "programs": programs,
+    }
 
 
 @app.get("/api/breakdown")

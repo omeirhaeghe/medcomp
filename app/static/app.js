@@ -284,8 +284,137 @@ function renderBreakdownChart(data) {
   });
 }
 
+// ============= Tabs =============
+function setupTabs() {
+  const buttons = document.querySelectorAll(".tab-btn");
+  buttons.forEach(btn => {
+    btn.addEventListener("click", () => {
+      buttons.forEach(b => b.classList.toggle("active", b === btn));
+      const target = btn.dataset.tab;
+      document.querySelectorAll(".tab-pane").forEach(p => {
+        p.hidden = p.id !== `tab-${target}`;
+      });
+      if (target === "sms" && !SMS_LOADED) loadSmsInit();
+    });
+  });
+}
+
+// ============= SMS Fellowship tab =============
+let SMS_LOADED = false;
+let SMS_LAST = null;
+
+async function loadSmsInit() {
+  SMS_LOADED = true;
+  const [summary, specs] = await Promise.all([
+    fetch("/api/sms/summary").then(r => r.json()),
+    fetch("/api/sms/specialties").then(r => r.json()),
+  ]);
+  $("sms-summary").innerHTML = `
+    <strong>${summary.summary.programs.toLocaleString()}</strong> programs across
+    <strong>${summary.summary.institutions}</strong> institutions in
+    <strong>${summary.summary.specialties}</strong> specialties · years
+    ${summary.years[summary.years.length - 1]}–${summary.years[0]}
+  `;
+
+  const sel = $("sms-specialty");
+  sel.innerHTML = `<option value="">— pick one —</option>` + specs.specialties.map(s => `
+    <option value="${s.specialty}">${s.specialty} (${s.program_count} programs · ${s.fill_rate_5yr}% filled)</option>
+  `).join("");
+
+  sel.addEventListener("change", runSmsQuery);
+  $("sms-state-filter").addEventListener("change", renderSmsPrograms);
+
+  // Default to Pathology-family if available, else first non-empty option
+  const defaultSpec = specs.specialties.find(s => /pathology/i.test(s.specialty))?.specialty
+    || specs.specialties[0].specialty;
+  sel.value = defaultSpec;
+  runSmsQuery();
+}
+
+async function runSmsQuery() {
+  const spec = $("sms-specialty").value;
+  if (!spec) { $("sms-results-panel").hidden = true; return; }
+  const data = await fetch(`/api/sms/programs?specialty=${encodeURIComponent(spec)}`).then(r => r.json());
+  SMS_LAST = data;
+  $("sms-results-panel").hidden = false;
+  renderSmsTotals(data);
+  populateSmsStateFilter(data);
+  renderSmsPrograms();
+}
+
+function renderSmsTotals(data) {
+  const yrs = [...data.years].sort();  // ascending for the cards
+  const cards = yrs.map(yr => {
+    const t = data.totals_by_year[String(yr)];
+    const fill = t.quota > 0 ? Math.round(t.filled / t.quota * 1000) / 10 : 0;
+    return `
+      <div class="year-card">
+        <div class="yr-label">${yr}</div>
+        <div class="yr-value">${t.filled} / ${t.quota}</div>
+        <div class="yr-meta"><span class="fill-rate">${fill}%</span> filled</div>
+      </div>
+    `;
+  }).join("");
+  $("sms-totals").innerHTML = `<div class="sms-totals-grid">${cards}</div>`;
+}
+
+function populateSmsStateFilter(data) {
+  const states = [...new Set(data.programs.map(p => p.state).filter(Boolean))].sort();
+  const sel = $("sms-state-filter");
+  const current = sel.value;
+  sel.innerHTML = `<option value="">all states (${data.programs.length})</option>` +
+    states.map(s => {
+      const n = data.programs.filter(p => p.state === s).length;
+      return `<option value="${s}">${s} (${n})</option>`;
+    }).join("");
+  if (states.includes(current)) sel.value = current;
+}
+
+function renderSmsPrograms() {
+  if (!SMS_LAST) return;
+  const stateFilter = $("sms-state-filter").value;
+  const yrs = [...SMS_LAST.years].sort();  // ascending
+  const programs = stateFilter
+    ? SMS_LAST.programs.filter(p => p.state === stateFilter)
+    : SMS_LAST.programs;
+
+  const headerCells = yrs.map(yr => `<th class="year-col" colspan="2">${yr}</th>`).join("");
+  const subHeaderCells = yrs.map(() => `<th class="year-col">Q</th><th class="year-col">F</th>`).join("");
+
+  const rows = programs.map(p => {
+    const yearCells = yrs.map(yr => {
+      const c = p.by_year[String(yr)];
+      const q = c.quota, f = c.filled;
+      if (q === null) return `<td class="year-col cell-empty">—</td><td class="year-col cell-empty">—</td>`;
+      const cls = f === null ? "cell-empty" : (f >= q ? "cell-full" : "cell-unfilled");
+      return `<td class="year-col">${q}</td><td class="year-col ${cls}">${f ?? "—"}</td>`;
+    }).join("");
+    return `
+      <tr>
+        <td class="inst-cell">${p.institution}<br><span class="loc-cell">${p.program_name}</span></td>
+        <td class="loc-cell">${p.city || ""}, ${p.state || ""}</td>
+        ${yearCells}
+      </tr>
+    `;
+  }).join("");
+
+  $("sms-programs").innerHTML = `
+    <div class="sms-table-wrap">
+      <table class="sms-programs">
+        <thead>
+          <tr><th rowspan="2">Institution / Program</th><th rowspan="2">Location</th>${headerCells}</tr>
+          <tr>${subHeaderCells}</tr>
+        </thead>
+        <tbody>${rows}</tbody>
+      </table>
+    </div>
+    <p class="muted" style="margin-top:8px;">Q = quota (positions offered), F = filled. Green = fully filled, red = unfilled positions.</p>
+  `;
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   loadInit();
+  setupTabs();
   $("geo-type").addEventListener("change", populateGeoValues);
   $("run-compare").addEventListener("click", runCompare);
   $("run-breakdown").addEventListener("click", runBreakdown);

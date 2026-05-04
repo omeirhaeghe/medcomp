@@ -79,6 +79,97 @@ main {
   gap: 18px;
 }
 
+.tabs {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 32px;
+  display: flex;
+  gap: 4px;
+  border-bottom: 1px solid var(--border);
+  background: var(--bg);
+}
+.tab-btn {
+  background: transparent;
+  border: none;
+  padding: 14px 18px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text-3);
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  transition: color 0.15s, border-color 0.15s;
+  font-family: inherit;
+  margin-bottom: -1px;
+}
+.tab-btn:hover { color: var(--text); }
+.tab-btn.active {
+  color: var(--primary);
+  border-bottom-color: var(--primary);
+  font-weight: 600;
+}
+.tab-pane { display: contents; }
+
+.sms-totals-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  margin: 8px 0 12px;
+}
+.year-card {
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 12px;
+  text-align: center;
+}
+.year-card .yr-label {
+  font-size: 0.72rem;
+  color: var(--text-3);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.year-card .yr-value {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--text);
+  margin: 4px 0 2px;
+  font-variant-numeric: tabular-nums;
+}
+.year-card .yr-meta {
+  font-size: 0.78rem;
+  color: var(--text-2);
+}
+.year-card .yr-meta .fill-rate {
+  font-weight: 600;
+  color: var(--primary);
+}
+@media (max-width: 720px) {
+  .sms-totals-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+.sms-table-wrap {
+  overflow-x: auto;
+}
+table.sms-programs th.year-col,
+table.sms-programs td.year-col {
+  text-align: center;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+  font-size: 0.85rem;
+}
+table.sms-programs td.cell-empty { color: var(--text-3); }
+table.sms-programs td.cell-unfilled {
+  color: #b91c1c;
+  font-weight: 600;
+}
+table.sms-programs td.cell-full {
+  color: var(--primary);
+  font-weight: 600;
+}
+table.sms-programs td.inst-cell { font-weight: 500; min-width: 220px; }
+table.sms-programs td.loc-cell { color: var(--text-2); font-size: 0.85rem; white-space: nowrap; }
+
 .panel {
   background: var(--surface);
   border: 1px solid var(--border);
