@@ -2,6 +2,18 @@ const $ = (id) => document.getElementById(id);
 let SCHOOLS = [];
 let FACETS = {};
 let LAST_RESULTS = null;
+let BREAKDOWN_CHART = null;
+
+// Categorical palette tuned to the teal/slate UI.
+const CHART_COLORS = [
+  "#0f766e", "#1e40af", "#b45309", "#7e22ce", "#be123c",
+  "#0369a1", "#15803d", "#a16207", "#9d174d", "#4338ca",
+  "#0e7490", "#65a30d", "#c2410c", "#6d28d9", "#0891b2",
+  "#a3e635", "#f59e0b", "#ec4899", "#8b5cf6", "#06b6d4",
+  "#84cc16", "#fb923c", "#f43f5e", "#a855f7", "#14b8a6",
+];
+
+function colorAt(i) { return CHART_COLORS[i % CHART_COLORS.length]; }
 
 async function loadInit() {
   const [schools, facets] = await Promise.all([
@@ -166,6 +178,7 @@ async function runBreakdown() {
   const by = $("bd-by").value;
   const data = await fetch(`/api/breakdown?school=${sid}&by=${by}`).then(r => r.json());
   const max = Math.max(...data.rows.map(r => r.pct), 1);
+  renderBreakdownChart(data);
   $("breakdown-result").innerHTML = `
     <p class="muted">${data.school_name} <span class="year-pill">${data.year}</span> · ${data.class_size} placements, grouped by ${data.group_by.replace("_", " ")}</p>
     <table>
@@ -186,6 +199,85 @@ async function runBreakdown() {
       </tbody>
     </table>
   `;
+}
+
+function renderBreakdownChart(data) {
+  const wrap = $("breakdown-chart-wrap");
+  wrap.hidden = false;
+
+  // Cap visible slices so the pie stays readable; bucket the long tail as "Other".
+  const TOP_N = 12;
+  const rows = [...data.rows];
+  let labels, values, raw;
+  if (rows.length > TOP_N) {
+    const top = rows.slice(0, TOP_N);
+    const tail = rows.slice(TOP_N);
+    const otherCount = tail.reduce((sum, r) => sum + r.count, 0);
+    const otherPct = +(tail.reduce((sum, r) => sum + r.pct, 0)).toFixed(1);
+    labels = [...top.map(r => r.value), `Other (${tail.length})`];
+    values = [...top.map(r => r.count), otherCount];
+    raw = [...top, { value: `Other (${tail.length})`, count: otherCount, pct: otherPct, _tail: tail }];
+  } else {
+    labels = rows.map(r => r.value);
+    values = rows.map(r => r.count);
+    raw = rows;
+  }
+
+  const colors = labels.map((_, i) => colorAt(i));
+
+  if (BREAKDOWN_CHART) BREAKDOWN_CHART.destroy();
+
+  const ctx = $("breakdown-chart").getContext("2d");
+  BREAKDOWN_CHART = new Chart(ctx, {
+    type: "pie",
+    data: {
+      labels,
+      datasets: [{
+        data: values,
+        backgroundColor: colors,
+        borderColor: "#fff",
+        borderWidth: 2,
+        hoverOffset: 8,
+      }],
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: true,
+      animation: { duration: 350 },
+      plugins: {
+        legend: {
+          position: "bottom",
+          labels: { boxWidth: 10, boxHeight: 10, font: { size: 11 }, padding: 8 },
+        },
+        title: {
+          display: true,
+          text: `${data.school_name} (${data.year}) — by ${data.group_by.replace("_", " ")}`,
+          font: { size: 13, weight: "600" },
+          color: "#0f172a",
+          padding: { bottom: 12 },
+        },
+        tooltip: {
+          padding: 10,
+          titleFont: { size: 13, weight: "600" },
+          bodyFont: { size: 12 },
+          callbacks: {
+            title: (items) => items[0].label,
+            label: (item) => {
+              const r = raw[item.dataIndex];
+              const lines = [`${r.count} placements (${r.pct}%)`];
+              if (r._tail) {
+                lines.push("");
+                lines.push("Includes:");
+                r._tail.slice(0, 6).forEach(t => lines.push(`  ${t.value}: ${t.count}`));
+                if (r._tail.length > 6) lines.push(`  …and ${r._tail.length - 6} more`);
+              }
+              return lines;
+            },
+          },
+        },
+      },
+    },
+  });
 }
 
 document.addEventListener("DOMContentLoaded", () => {

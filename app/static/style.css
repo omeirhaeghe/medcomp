@@ -425,6 +425,32 @@ tbody tr:hover td { background: var(--surface-2); }
   font-size: 0.88rem;
 }
 
+.breakdown-layout {
+  display: grid;
+  grid-template-columns: minmax(280px, 360px) 1fr;
+  gap: 24px;
+  align-items: start;
+  margin-top: 16px;
+}
+
+.chart-wrap {
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 16px;
+  position: relative;
+  min-height: 320px;
+}
+
+.chart-wrap canvas {
+  max-width: 100%;
+  height: auto !important;
+}
+
+@media (max-width: 720px) {
+  .breakdown-layout { grid-template-columns: 1fr; }
+}
+
 footer {
   text-align: center;
   font-size: 0.78rem;

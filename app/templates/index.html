@@ -93,12 +93,18 @@
       </label>
     </div>
     <button class="primary" id="run-breakdown">Show breakdown</button>
-    <div id="breakdown-result"></div>
+    <div class="breakdown-layout">
+      <div id="breakdown-chart-wrap" class="chart-wrap" hidden>
+        <canvas id="breakdown-chart"></canvas>
+      </div>
+      <div id="breakdown-result"></div>
+    </div>
   </section>
 
   <footer>MedComp · data sourced from school-published match lists</footer>
 </main>
 
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
 <script src="/static/app.js"></script>
 </body>
 </html>
